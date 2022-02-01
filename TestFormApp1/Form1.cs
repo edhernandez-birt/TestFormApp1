@@ -15,7 +15,13 @@ namespace TestFormApp1
         public Form1()
         {
             InitializeComponent();
+            textBox3.Text = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         }
-
+        private string cadenaEscrita="";
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            cadenaEscrita = textBox1.Text;
+            textBox2.Text += cadenaEscrita;
+        }
     }
 }

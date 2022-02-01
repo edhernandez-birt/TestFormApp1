@@ -9,7 +9,7 @@ namespace ConsoleApp1
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop)+"\\Historial.txt");
-            Class1 clase = new();
+           // Class1 clase = new();
         }
     }
 }
